@@ -1,0 +1,51 @@
+.navbar-brand img{
+  width: auto;
+  height: 70px;
+}
+
+.nav-item a{
+  color: #FFF;
+  font-size: 1rem;
+}
+
+.nav-item a:hover{
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+.Qt-Oda{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.lista{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.objetos{
+  margin: 6px;
+  padding: 40px;
+  box-shadow: 5px 10px 10px 5px rgba(0.2, 0.4, 0.2, 0.4);
+  transition: transform 100ms ease-in-out;
+}
+
+.objetos:hover{
+  transform: scale(1.02);
+} 
+
+.sty-footer{
+  margin-top: 30px;
+}
+
+.text-footer{
+  margin-left: 20px;
+}
+
+.text-muted{
+  padding-right: 20px;
+}
